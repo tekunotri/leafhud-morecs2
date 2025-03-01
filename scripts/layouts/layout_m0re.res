@@ -170,7 +170,7 @@
 		"LocalPlayerColor"							"White"
 
 		"BaseBackgroundColor"						"0 0 0 100"
-		"LocalBackgroundColor"						"0 0 0 100"
+		"LocalBackgroundColor"						"128 0 0 100"
 	}
 
 	"HudCloseCaption"
