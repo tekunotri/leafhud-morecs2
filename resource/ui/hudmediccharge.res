@@ -42,7 +42,7 @@
 	}
 
 	//==================================================================================================================================================
-	// MAIN UBER PERCENTAGE
+	// Gray UBER PERCENTAGE
 	//==================================================================================================================================================
 
 	"ChargeLabelBig"
@@ -59,7 +59,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont48"
+		"font"										"m0refont24"
 		"fgcolor"   								"Ubercharge"
 
 		"pin_to_sibling"							"UberAnchor"
@@ -80,7 +80,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_UberchargeMinHUD"
 		"textAlignment"								"center"
-		"font"										"m0refont48"
+		"font"										"m0refont24"
 		"fgcolor"  									"Black"
 
 		"pin_to_sibling"							"ChargeLabelBig"

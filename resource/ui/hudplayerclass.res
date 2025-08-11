@@ -1,5 +1,5 @@
 #base "hudubercounter.res"
-#base "speedometer.res"
+//#base "speedometer.res"
 #base "Overlay.res"
 
 "Resource/UI/HudPlayerClass.res"

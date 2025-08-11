@@ -3,7 +3,7 @@
 	"blah"
 	{
 		"controlName"								"ImagePanel"
-		"fieldName"									"Speedometer"
+		"fieldName"									"blah"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"2"
@@ -16,3 +16,4 @@
 		"scaleimage"								"1"
 		"drawcolor"									"255 255 255 255"
 	}
+}

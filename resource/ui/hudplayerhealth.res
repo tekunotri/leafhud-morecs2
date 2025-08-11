@@ -48,7 +48,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
 		"xpos"										"c-175"
-		"ypos"										"c95"
+		"ypos"										"c100"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"80"
@@ -74,7 +74,7 @@
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
-		"font"                   				 	"m0refont48"
+		"font"                   				 	"m0refont24"
 		"fgcolor"	    	         				"Health Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
@@ -94,7 +94,7 @@
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"m0refont48"
+		"font"                   				 	"m0refont24"
 		"fgcolor"	     	         				"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue"
@@ -117,6 +117,39 @@
 		"alpha"	     	         					"0"
 
 		"pin_to_sibling"							"PlayerStatusHealthValueShadow"
+	}
+
+	//stolen hp bar
+		"healthbar"
+	{	
+		"ControlName"	"ContinuousProgressBar"	"fieldName"	"healthbar"
+		"xpos"	"c-140"	"ypos"	"rs1-10"	"zpos"	"10"	"wide"	"33"	"tall"	"4"	"textAlignment"	"Left"
+		"visible"	"1"	 "visible_minmode"	"1" "enabled"	"1"
+		"variable"	"Health"
+		"FGcolor_override"		"Health Numbers" "BGcolor_override"		"0 0 0 50"	"alpha"	"255"
+	}
+		"healthbarlow"
+	{	
+		"ControlName"	"ContinuousProgressBar"	"fieldName"	"healthbarlow"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"11"	"wide"	"33"	"tall"	"4"	"textAlignment"	"Left"
+		"visible"	"1"	 "visible_minmode"	"1" "enabled"	"1"
+		"variable"	"Health"
+		"FGcolor_override"		"health hurt" "BGcolor_override"		"0 0 0 0"	"alpha"	"0"
+		"pin_to_sibling"	"healthbar"	
+	}
+		"healthbarbg"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"healthbarbg"
+        "xpos"	"0"	"ypos"	"0"	"zpos"	"9"	"wide"	"33"	"tall"	"4"
+		"visible"		"1"
+		"visible_minmode"		"1"
+		"alpha"			"255"
+		"image"					"replay/thumbnails/sidegradient"
+		"drawcolor"				"red"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"pin_to_sibling"	"healthbar"	
 	}
 
 	//==================================================================================================================================================

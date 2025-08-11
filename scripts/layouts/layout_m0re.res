@@ -147,7 +147,7 @@
 		"wide"										"60"
 		"tall"										"18"
 	}
-
+	
 	"HudDeathNotice"
 	{
 		"xpos"	 									"r640"
@@ -162,15 +162,15 @@
 		"CornerRadius"	  							"0"
 		"RightJustify"	  							"1"
 
-		"TextFont"									"m0refont11"
+		"TextFont"									"m0refont10"
 
-		"TeamBlue"									"m0reBlue"
-		"TeamRed"									"m0reRed"
+		"TeamBlue"									"108 151 219 255"
+		"TeamRed"									"230 189 93 255"
 		"IconColor"									"White"
-		"LocalPlayerColor"							"HUDBlack"
+		"LocalPlayerColor"							"White"
 
 		"BaseBackgroundColor"						"0 0 0 100"
-		"LocalBackgroundColor"						"240 240 240 200"
+		"LocalBackgroundColor"						"128 0 0 100"
 	}
 
 	"HudCloseCaption"

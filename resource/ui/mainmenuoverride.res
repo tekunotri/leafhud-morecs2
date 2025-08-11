@@ -1839,11 +1839,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"Default"
-		"labelText"		"LeafHUD"
+		"labelText"		"LeafHUD-morecs2"
 		"textAlignment"	"west"
 		"fgcolor"		"white"
 
-		"command" "engine con_enable 1;toggleconsole; clear; echo LeafHUD by RazorLeaf16"
+		"command" "engine con_enable 1;toggleconsole; clear; echo LeafHUD by RazorLeaf16; echo morecs2 edit by techno"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
